@@ -1,0 +1,14 @@
+﻿id,path,type,size_bytes,pdf_creation_or_doc_date,pages,sha256_prefix16,category,relevance,readability,note
+G,uploads/c468e0f5-LVI-SAM_complete_guide_with_calibration.pdf,.pdf,3132003,(no metadata; content 2026-05..06),35,96299533cbfc22b2,LVI-SAM;intrinsic;extrinsic;colorization;sync;PCD,high,"p1-26 OK; p27-35 Japanese text missing (font F2 absent), only code blocks/figures readable",duplicate: ee9bddb5-* (same sha256)
+M,uploads/86890097-colored_pointcloud_manual.pdf,.pdf,1999940,2026-05-30,42,440665b4706b55e0,LIO-SAM era;intrinsic;extrinsic;colorization;sync;PCD,high,text OK,LIO-SAM + color_projection_node realtime manual
+S,uploads/a64c99fb-colored_pointcloud_status_report.pdf,.pdf,146551,2026-06-01,6,ff450bba58d65b2f,LIO-SAM era;divergence;failed result,high,OK,colored-run divergence investigation
+K,uploads/2583c2ef-LVI-SAM_migration_knowledge.pdf,.pdf,219937,2026-06-03,9,7a26f15989980c54,LVI-SAM;intrinsic;extrinsic;sync;colorization,high,"OK (code block glyphs partly lost p3,p6)",
+F,uploads/500bfa7c-LVI_SAM_Ouster_Final_Recovery_Report.pdf,.pdf,4153,2026-06-06,2,5095c15b30fd06c1,LVI-SAM;LiDAR,medium,OK,
+A,uploads/c53e1f46-LVISAM_setting_audit_2026-06-07.md,.md,10511,2026-06-07 (in-text),,c4de5599d709521d,LVI-SAM;settings audit,medium,OK,
+B,uploads/1c4538e0-Checkerboard-A3-40mm-8x6.pdf,.pdf,390918,2026-06-08,1,eaec1306f662ebfc,target,high,image only,9x7 squares drawn; A3 / 40mm only in filename
+O,uploads/b07d2441-LVI_SAM_object_detection_workflow_report.pdf,.pdf,3605720,2026-06-10,20,8d808eb6bacaecd6,colorization;downstream use,medium,text OK,
+L,uploads/8acbcb0d-Ouster_LIO-SAM_setup_guide_v2.pdf,.pdf,191598,2026-05-07,7,5ce03543cf0b0aad,LIO-SAM (OS-1-32);LiDAR;sync,low,text OK,OS-1-32 era; no camera content found by keyword search
+D5,uploads/b30e86fa-LVI-SAM_________0605.pdf,.pdf,106479,2026-06-05,2,eadc8f822ee07aae,LVI-SAM;debug log;failed result,low,OK,imuPreintegration 218 resets
+P,uploads/d754e506-Ouster_LVI-SAM_Progress_Report.pdf,.pdf,3279,2026-06-04,2,a2722a7c70730666,LiDAR driver bring-up,low,Japanese glyphs garbled; Latin fragments readable,"duplicates: 0f75c7c1-*, 4a50842b-* (same sha256)"
+X,uploads/d28e731b-Ouster_LVI_SAM_Formal_Report_10plus_pages.pdf,.pdf,14134,2026-06-04,20,3bcb5d482c833d37,report,unknown,UNREADABLE: Japanese glyphs rendered as black boxes; paragraphs repeated 3x,request source file
+R,uploads/3672f875-Ouster_LVI_SAM_Report_Readable.pdf,.pdf,12812,2026-06-04,12,0aa162b43f35ec12,report,unknown,"UNREADABLE: pages render blank, no text layer",request source file

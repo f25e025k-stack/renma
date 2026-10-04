@@ -4,11 +4,15 @@
 
 ## 現状（2026-10-04）
 
-監査対象 `\\CoastalEngLab2\public\個人フォルダ\平野錬磨\LiDAR_開発_LVI SAM+color map\LVI SAM+color map`
-は研究室LAN内のWindows共有で、クラウドセッションからは到達できない。
-**そのため旧資産の内容に関する CLAIM はまだ1件も存在しない。**
-REPORT / EVIDENCE_TABLE / CURRENT_VS_LEGACY / REUSE_ASSESSMENT / NEXT_PLAN は、
-収集結果を受け取った後に作成する（未読の資料を推測で埋めないため）。
+アップロードされた旧資料13点（重複を除く）で監査を実施済みです。
+- `REPORT.md`：結論と最終判定
+- `EVIDENCE_TABLE.csv`：51件の CLAIM と evidence level
+- `FILE_INVENTORY.csv`：受領した文書の一覧
+- `CURRENT_VS_LEGACY.md`：現行との比較
+- `REUSE_ASSESSMENT.md`：再利用可否の判定
+- `NEXT_PLAN.md`：Gate D 以降の計画
+
+共有フォルダ全体（ソースコード・yaml・画像を含む）はまだ見ていません。下の収集スクリプトで補完できます。
 
 ## Step 1 — 研究室PCで収集（読み取り専用）
 
